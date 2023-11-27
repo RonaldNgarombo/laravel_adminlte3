@@ -1,5 +1,6 @@
 <?php
 
+use App\Livewire\Dashboard\Dashboard;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,4 +16,10 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
+});
+
+
+// Dashboard Routes
+Route::group(['prefix' => 'dashboard'], function () {
+    Route::get('/', Dashboard::class)->name('dashboard');
 });
