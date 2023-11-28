@@ -30,7 +30,9 @@
     <link rel="stylesheet" href="{{ asset('theme/plugins/sweetalert2/sweetalert2.min.css') }}">
     {{-- Toastr --}}
     <link rel="stylesheet" href="{{ asset('theme/plugins/toastr/toastr.min.css') }}">
-    {{-- <link rel="stylesheet" href="{{ asset('theme/plugins/sweetalert2-theme-bootstrap-4/bootstrap-4.min.css') }}"> --}}
+
+    {{-- General Styles --}}
+    <link rel="stylesheet" href="{{ asset('assets/css/styles.css') }}">
 </head>
 
 <body class="hold-transition sidebar-mini layout-fixed">
@@ -106,6 +108,9 @@
 
     {{-- Toastr --}}
     <script src="{{ asset('theme/plugins/toastr/toastr.min.js') }}"></script>
+
+    {{-- General Script --}}
+    <script src="{{ asset('assets/js/main.js') }}"></script>
 </body>
 
 </html>
