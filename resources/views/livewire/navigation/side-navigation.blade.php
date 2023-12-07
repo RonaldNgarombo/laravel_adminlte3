@@ -1,9 +1,15 @@
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
-    <a href="#" class="brand-link">
-        <img src="{{ asset('assets/images/bms_logo.png') }}" alt="SafetyHive Logo"
+    <a href="https://www.youtube.com/@RonaldCodes23" target="_blank" class="brand-link">
+        <img src="{{ asset('assets/images/RonaldCodesLogo.png') }}" alt="RonaldCodes Logo"
             class="brand-image img-circle elevation-3" style="opacity: .8">
-        <span class="brand-text font-weight-light">Safety Hive</span>
+
+        {{-- <a href="https://www.youtube.com/@RonaldCodes23" target="_blank"><img
+                src="{{ asset('assets/images/RonaldCodesLogo.png') }}" alt="Ronald Codes Logo"
+                class="brand-image img-circle elevation-3 rounded-circle cursor-pointer" style="width: 50px" />
+        </a> --}}
+
+        <span class="brand-text font-weight-light">Laravel AdminLTE v3</span>
     </a>
 
     <div class="sidebar">

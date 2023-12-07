@@ -1,7 +1,7 @@
-<footer class="main-footer">
-    <strong>Copyright &copy; {{ date('Y') }}
-        <a href="https://www.brainmediasolutions.com">
-            Brain Media Solutions</a>.
+<footer class="main-footer text-center">
+    <strong>Compiled with ❤️ by
+        <a href="https://www.youtube.com/@RonaldCodes23" target="_blank">
+            Ronald Codes</a>.
     </strong>
-    All rights reserved.
+    Happy Coding.
 </footer>
