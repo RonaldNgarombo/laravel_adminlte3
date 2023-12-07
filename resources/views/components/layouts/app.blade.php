@@ -33,6 +33,8 @@
 
     {{-- General Styles --}}
     <link rel="stylesheet" href="{{ asset('assets/css/styles.css') }}">
+
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
 <body class="hold-transition sidebar-mini layout-fixed">
