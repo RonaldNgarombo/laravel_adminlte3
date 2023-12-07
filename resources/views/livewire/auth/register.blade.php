@@ -1,7 +1,9 @@
 <div class="container-fluid bg-light d-flex align-items-center justify-content-center" style="height: 100vh;">
     <div class="bg-white p-4 rounded shadow-lg" style="width: 25rem;">
-        <img src="{{ asset('assets/images/bms_logo.png') }}" alt="Safety Hive Logo"
-            class="w-16 h-16 mx-auto d-block mb-4 rounded-circle cursor-pointer">
+        <a href="https://www.youtube.com/@RonaldCodes23" target="_blank"><img
+                src="{{ asset('assets/images/RonaldCodesLogo.png') }}" alt="Ronald Codes Logo"
+                class="mx-auto d-block mb-4 rounded-circle cursor-pointer" style="width: 100px" />
+        </a>
 
         <h3 class="font-weight-bold mb-4 text-dark text-center">Register</h3>
 
