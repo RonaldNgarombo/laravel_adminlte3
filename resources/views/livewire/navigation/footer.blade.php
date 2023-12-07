@@ -3,5 +3,5 @@
         <a href="https://www.youtube.com/@RonaldCodes23" target="_blank">
             Ronald Codes</a>.
     </strong>
-    Happy Coding.
+    Happy Coding. 😉
 </footer>
